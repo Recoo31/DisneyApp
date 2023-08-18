@@ -58,7 +58,7 @@ dependencies {
     implementation ("com.makeramen:roundedimageview:2.3.0")
 
     implementation ("com.github.bumptech.glide:glide:4.15.1")
-    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.squareup.picasso:picasso:2.8") //I love Glide but it doesn't work in viewpager
 
     implementation ("com.google.android.exoplayer:exoplayer:2.18.5")
     implementation ("com.google.android.exoplayer:exoplayer-core:2.18.5")
