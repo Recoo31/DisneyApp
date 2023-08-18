@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="recoo.roxio.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/home_to_search"
+            app:destination="@id/fragmentSearch" />
+<!--        <action-->
+<!--            android:id="@+id/home_to_account"-->
+<!--            app:destination="@id/fragmentAccount" />-->
+<!--        <action-->
+<!--            android:id="@+id/home_to_downloads"-->
+<!--            app:destination="@id/fragmentDownloads" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSearch"
+        android:name="recoo.roxio.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+<!--    <fragment-->
+<!--        android:id="@+id/fragmentDownloads"-->
+<!--        android:name="com.ethadien.disney.UI.FragmentDownloads"-->
+<!--        android:label="fragment_downloads"-->
+<!--        tools:layout="@layout/fragment_downloads" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragmentAccount"-->
+<!--        android:name="com.ethadien.disney.UI.FragmentAccount"-->
+<!--        android:label="fragment_account"-->
+<!--        tools:layout="@layout/fragment_account" />-->
+</navigation>

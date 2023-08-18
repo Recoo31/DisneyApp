@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makeramen.roundedimageview.RoundedImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="137dp"
+    android:layout_height="185dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RoundedItem"
+    android:adjustViewBounds="true"
+    app:riv_corner_radius="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:scaleType="fitXY">
+
+</com.makeramen.roundedimageview.RoundedImageView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_action"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_action"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/downloads_action"
+        android:icon="@drawable/ic_download"
+        android:title="Downloads"
+        app:showAsAction="always" />
+<!--    <item-->
+<!--        android:id="@+id/account_action"-->
+<!--        android:icon="@drawable/vision"-->
+<!--        android:title="Account"-->
+<!--        app:showAsAction="always" />-->
+</menu>
